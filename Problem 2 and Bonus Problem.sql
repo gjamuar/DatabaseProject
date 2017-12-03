@@ -8,6 +8,7 @@ having Goals >= 30
 order by Goals desc;
 
 TeamName Goals
+--------------
 Pirates 	38
 Saints 		32
 Warriors 	30
@@ -23,10 +24,11 @@ group by p.TeamId) p1 inner join teams t
 on t.TeamId = p1.TeamId 
 order by p1.NumGoals desc;
 
-TeamName	FirstName	LastName	NumGoals
-Pirates	    Bill	    Compton	    18
-Warriors	Harry		Callahan	15
-Ravens		John		Dunbar		15
-Saints		Jason		Bourne		12
-Mighty 		Ducks		Ben	Grimm	12
-Wildcats	Austin		Powers		11
+TeamName	FirstName	LastName	  NumGoals
+----------------------------------------
+Pirates	  Bill	    Compton	    18
+Warriors	Harry		  Callahan	  15
+Ravens		John		  Dunbar		  15
+Saints		Jason		  Bourne		  12
+Mighty 		Ducks		  Ben	Grimm	  12
+Wildcats	Austin	  Powers		  11
